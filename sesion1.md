@@ -12,7 +12,7 @@ Html que es la base de toda la estructura de una pagina web, el CSS aunque no es
 ## 2.	¿Qué es HTML y para qué se utiliza?
 R/
 HTML es la base para la programación web, se utiliza para dar estructura a las paginas dando un orden  y que se pueda mostrar el contenido correctamente en un navegador.
-Se utiliza para estructurar el contenido, crear enlaces, insertar medios como imágenes y videos, formularios y entradas de usuarios
+Se utiliza para estructurar el contenido, crear enlaces, insertar medios como imágenes y videos, formularios y entradas de usuarios.
 
 
 

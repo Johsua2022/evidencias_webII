@@ -15,7 +15,7 @@ HTML es la base para la programación web, se utiliza para dar estructura a las 
 Se utiliza para estructurar el contenido, crear enlaces, insertar medios como imágenes y videos, formularios y entradas de usuarios.
 
 ## 3.	¿Qué es CSS y para qué se utiliza?
-R/  CSS  no es un lenguaje como tal , pero se usa para dar estilo y un formato diferente al HTML.
+R/  CSS  no es un lenguaje como tal , pero se usa para dar estilo y un formato diferente al HTML. como centrado, estilos.
 
 
 

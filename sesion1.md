@@ -17,6 +17,9 @@ Se utiliza para estructurar el contenido, crear enlaces, insertar medios como im
 ## 3.	¿Qué es CSS y para qué se utiliza?
 R/  CSS  no es un lenguaje como tal , pero se usa para dar estilo y un formato diferente al HTML. como centrado, estilos.
 
+## 4.	¿Qué es JavaScript y para qué se utiliza?
+R/ JavaScript es un lenguaje de programación muy utilizado para la web si no el mas importante para el desarrollo web, se utiliza para crear interacciones dinámicas, validación de formularios, animaciones y manipulación del DOM.
+
 
 
 

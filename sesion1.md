@@ -20,6 +20,11 @@ R/  CSS  no es un lenguaje como tal , pero se usa para dar estilo y un formato d
 ## 4.	¿Qué es JavaScript y para qué se utiliza?
 R/ JavaScript es un lenguaje de programación muy utilizado para la web si no el mas importante para el desarrollo web, se utiliza para crear interacciones dinámicas, validación de formularios, animaciones y manipulación del DOM.
 
+## 5.	¿Qué es un elemento HTML y cómo se crea?
+R/ un elemento es una parte básica que tiene un significado y una función especifica están compuestos por etiquetas, contenido  y atributos.
+Las etiquetas definen el tipo de elemento y rodean el contenido. Los atributos proporcionan información adicional sobre el elemento.
+
+
 
 
 

@@ -6,7 +6,7 @@
 
 <!-- Su documentación aquí -->
 
-### Actividad: Sitio Web de películas utilizando React Bootstrap.
+<center> <h1> Actividad: Sitio Web de películas utilizando React Bootstrap.</h1> </center> 
 
 Esta actividad se realiza para crear un sitio de peliculas utilizando React y Bootstrap
 y a continuacion se ponen los componentes necesarios para que el sitio funcione.

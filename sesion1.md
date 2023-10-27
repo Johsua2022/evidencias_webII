@@ -80,10 +80,52 @@ javaScript: // Obtener referencia al elemento del botón
 const boton = document.getElementById("miBoton");
 
 // Agregar un manejador de evento para el clic
-boton.addEventListener("click", function() {
+``boton.addEventListener("click", function() {
   alert("¡Botón clickeado!");
-});.
+});.``
 En este ejemplo, hemos utilizado el método addEventListener para vincular un manejador de evento al botón. Cuando el botón se hace clic, la función proporcionada se ejecuta y muestra un cuadro de alerta en el navegador.
+
+## 13.	¿Qué son las peticiones HTTP y cómo se realizan en JavaScript?
+
+R/ las peticiones HTTP son solicitudes que un cliente que generalmente es un navegador web envia para obtener, o enviar datos esta es la base de la comunicación entre navegador y servidor en la web.
+En JavaScript, se pueden realizar peticiones HTTP utilizando la interfaz XMLHttpRequest o la más moderna API fetch(). Aquí te proporcionaré ejemplos de cómo se realizan peticiones HTTP utilizando ambas opciones.
+// Crear un nuevo objeto XMLHttpRequest
+var xhr = new XMLHttpRequest();
+
+// Configurar la solicitud
+xhr.open("GET", "https://api.example.com/data", true);
+
+// Configurar un manejador de evento para la respuesta
+xhr.onload = function() {
+  if (xhr.status >= 200 && xhr.status < 300) {
+    // La solicitud fue exitosa
+    console.log(xhr.responseText);
+  } else {
+    // La solicitud falló
+    console.error("Error en la solicitud:", xhr.statusText);
+  }
+};
+
+// Enviar la solicitud
+xhr.send();
+
+## 14.	¿Qué son los marcos de trabajo de front-end y cuáles son algunos de los más populares?
+
+R/ son conjuntos de herramientas, bibliotecas y patrones de diseño que facilitan y agilizan el proceso de desarrollo de la interfaz de usuario y la lógica del lado del cliente en aplicaciones web. Estos marcos proporcionan una estructura organizada para construir aplicaciones web interactivas, dinámicas y receptivas.
+Los mas populares son: React, Angular, Vue.js, Svelte,Ember.js,Mithril.
+
+## 15.	¿Qué es una single-page application (SPA) y cómo se desarrolla utilizando JavaScript?
+
+R/ Una Single-Page Application (SPA) es una aplicación web que funciona en una sola página HTML y carga dinámicamente el contenido necesario a medida que el usuario navega a través de la aplicación. En lugar de cargar páginas web completas cada vez que se realiza una acción, como hacer clic en un enlace, una SPA carga solo los datos y actualiza la vista en la página actual. Esto crea una experiencia de usuario más fluida y rápida, similar a una aplicación de escritorio.
+Aquí hay una descripción general de cómo se desarrolla una Single-Page Application utilizando JavaScript:
+1.	Estructura de la aplicación: En lugar de tener varias páginas HTML, una SPA generalmente tiene una única página HTML que sirve como contenedor para la aplicación. La mayoría del contenido de la aplicación se genera y actualiza dinámicamente mediante JavaScript.
+2.	Enrutamiento: Una biblioteca o framework de enrutamiento (como React Router para React, Vue Router para Vue.js o Angular Router para Angular) se utiliza para manejar la navegación interna de la aplicación. Define rutas y componentes asociados para cada "página" lógica en la SPA.
+3.	Componentes reutilizables: La aplicación se divide en componentes reutilizables, que son fragmentos de código que representan diferentes partes de la interfaz de usuario. Estos componentes se renderizan y actualizan dinámicamente a medida que el usuario interactúa con la aplicación.
+4.	Manejo del estado: Se utiliza un sistema de manejo del estado (como Redux para React, Vuex para Vue.js o el enlace de datos de Angular) para administrar el estado de la aplicación y compartir datos entre los diferentes componentes.
+5.	Comunicación con el servidor: Las SPAs a menudo utilizan peticiones AJAX (Asynchronous JavaScript and XML) o la API fetch() para comunicarse con un servidor y obtener datos. Los datos se actualizan en la interfaz de usuario sin recargar la página completa.
+6.	Optimización de rendimiento: Dado que las SPAs pueden acumular una gran cantidad de JavaScript y datos, es importante implementar técnicas de optimización de rendimiento, como la carga diferida de recursos, la compresión de datos y la caché.
+
+
 
 
 

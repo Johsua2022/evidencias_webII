@@ -5,7 +5,7 @@
 
 
 <!-- Su documentación aquí -->
-### Taller sesion 1
+# Taller sesion 1
 
 ## 1.	¿Cuáles son los lenguajes de programación más comunes utilizados para el desarrollo web?
 R/ los lenguajes de programación mas comunes para el desarrollo web son:

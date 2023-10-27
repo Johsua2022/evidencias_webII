@@ -24,7 +24,7 @@ R/ JavaScript es un lenguaje de programación muy utilizado para la web si no el
 R/ un elemento es una parte básica que tiene un significado y una función especifica están compuestos por etiquetas, contenido  y atributos.
 Las etiquetas definen el tipo de elemento y rodean el contenido. Los atributos proporcionan información adicional sobre el elemento.
 Un ejemplo de etiqueta es <p> que es la apertura y si dentro de esta etiqueta ponemos un texto este seria el contenido del elemento </p> y este seria el cierre de la etiqueta.
-Un ejemplo de atributos es: <img src="imagen.jpg" alt="Descripción de la imagen">, src y alt son atributos, y "imagen.jpg" y "Descripción de la imagen" son sus respectivos valores.
+Un ejemplo de atributos es: "<img src="imagen.jpg" alt="Descripción de la imagen">", src y alt son atributos, y "imagen.jpg" y "Descripción de la imagen" son sus respectivos valores.
 
 ## 6.	¿Qué es una hoja de estilos CSS y cómo se enlaza a una página HTML?
 R/ una hoja de estilos CSS es un archivo que contiene reglas de estilos que controlan el diseño de la pagina web modificando el HTML ,y dándole estilos de fuente, color , posicionamiento  y asi darle una mejor apariencia a nuestra pagina web.

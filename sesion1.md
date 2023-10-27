@@ -70,6 +70,22 @@ const persona = {
 };
 Acceso a propiedades y métodos, agregar o modificar profesiones.
 
+## 12.	¿Qué son los eventos en JavaScript y cómo se utilizan en una página web?
+
+R/ Los eventos en JavaScript son interacciones o sucesos que ocurren en una página web, como hacer clic en un botón, mover el ratón sobre un elemento, presionar una tecla, cargar una página, entre otros. Los eventos permiten que el código JavaScript responda a las acciones del usuario o a cambios en el estado de la página.
+Para capturar y manejar eventos en una página web, se utilizan manejadores de eventos. Estos son bloques de código (funciones) que se ejecutan en respuesta a un evento específico. Los manejadores de eventos permiten que tu código reaccione de manera dinámica a las acciones del usuario, lo que hace que las aplicaciones web sean interactivas y receptivas.
+Aquí hay un ejemplo básico de cómo se utiliza un manejador de eventos para capturar el evento de clic en un botón:
+HTML: ``<button id="miBoton">Haz clic</button>.``
+javaScript: // Obtener referencia al elemento del botón
+const boton = document.getElementById("miBoton");
+
+// Agregar un manejador de evento para el clic
+boton.addEventListener("click", function() {
+  alert("¡Botón clickeado!");
+});.
+En este ejemplo, hemos utilizado el método addEventListener para vincular un manejador de evento al botón. Cuando el botón se hace clic, la función proporcionada se ejecuta y muestra un cuadro de alerta en el navegador.
+
+
 
 
 

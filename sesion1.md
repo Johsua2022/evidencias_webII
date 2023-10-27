@@ -90,19 +90,19 @@ En este ejemplo, hemos utilizado el método addEventListener para vincular un ma
 R/ las peticiones HTTP son solicitudes que un cliente que generalmente es un navegador web envia para obtener, o enviar datos esta es la base de la comunicación entre navegador y servidor en la web.
 En JavaScript, se pueden realizar peticiones HTTP utilizando la interfaz XMLHttpRequest o la más moderna API fetch(). Aquí te proporcionaré ejemplos de cómo se realizan peticiones HTTP utilizando ambas opciones.
 // Crear un nuevo objeto XMLHttpRequest
-var xhr = new XMLHttpRequest();
+``var xhr = new XMLHttpRequest();``
 
 // Configurar la solicitud
-xhr.open("GET", "https://api.example.com/data", true);
+``xhr.open("GET", "https://api.example.com/data", true);``
 
 // Configurar un manejador de evento para la respuesta
-xhr.onload = function() {
-  if (xhr.status >= 200 && xhr.status < 300) {
+``xhr.onload = function()`` {
+ `` if (xhr.status >= 200 && xhr.status < 300)`` {
     // La solicitud fue exitosa
-    console.log(xhr.responseText);
+    ``console.log(xhr.responseText);``
   } else {
     // La solicitud falló
-    console.error("Error en la solicitud:", xhr.statusText);
+    ``console.error("Error en la solicitud:", xhr.statusText);``
   }
 };
 

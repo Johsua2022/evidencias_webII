@@ -5,7 +5,7 @@
 
 
 <!-- Su documentación aquí -->
-<center> <h1># Taller sesion 1</h1> </center>
+<center> <h1> Taller sesion 1</h1> </center>
 
 
 

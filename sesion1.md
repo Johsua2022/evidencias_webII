@@ -24,7 +24,8 @@ R/ JavaScript es un lenguaje de programación muy utilizado para la web si no el
 R/ un elemento es una parte básica que tiene un significado y una función especifica están compuestos por etiquetas, contenido  y atributos.
 Las etiquetas definen el tipo de elemento y rodean el contenido. Los atributos proporcionan información adicional sobre el elemento.
 Un ejemplo de etiqueta es <p> que es la apertura y si dentro de esta etiqueta ponemos un texto este seria el contenido del elemento </p> y este seria el cierre de la etiqueta.
-Un ejemplo de atributos es + "<img src="imagen.jpg" alt="Descripción de la imagen">", src y alt son atributos, y "imagen.jpg" y "Descripción de la imagen" son sus respectivos valores.
+
+Un ejemplo de atributos es :  img src="imagen.jpg" alt="Descripción de la imagen", src y alt son atributos, y "imagen.jpg" y "Descripción de la imagen" son sus respectivos valores.
 
 ## 6.	¿Qué es una hoja de estilos CSS y cómo se enlaza a una página HTML?
 R/ una hoja de estilos CSS es un archivo que contiene reglas de estilos que controlan el diseño de la pagina web modificando el HTML ,y dándole estilos de fuente, color , posicionamiento  y asi darle una mejor apariencia a nuestra pagina web.
@@ -46,6 +47,30 @@ Y los switch que permite seleccionar un bloque de código para ejecutar basado e
 ## 9.	¿Qué es una variable en JavaScript y cómo se declara?
 R/ en JavaScript una variable es un contenedor donde se puede puede almacenar un dato pueden ser numero, cadenas de datos, objetos  y funciones y se pueden referenciar con un nombre
 Para declarar una variable en JavaScript se utilizan las palabras claves “var”, “let” o “const”.
+
+## 10.	¿Qué es una biblioteca o framework de JavaScript y cuáles son algunos de los más populares?
+
+R/ es un conjunto de herramientas, funciones y utilidades predeterminadas que facilitan el desarrollo de aplicaciones web.
+Algunas bibliotecas son jQuery, lodash, momento.js
+Y algunos framework angular, react,vue.js, ember.js, Svelte.
+
+## 11.	¿Qué es un objeto en JavaScript y cómo se crea y utiliza?
+
+R/ un objeto es una entidad que agrupa datos y funciones relacionadas en una sola unidad.
+Un objeto en JavaScript está compuesto por pares clave-valor, donde las claves son cadenas (o símbolos) que actúan como nombres para acceder a los valores asociados. Estos valores pueden ser cualquier tipo de datos, como números, cadenas, booleanos, funciones u otros objetos. Además, las funciones dentro de un objeto se llaman métodos.
+Hay varias maneras de crear un objeto una de las mas comunes es mediante la notación de objeto literal
+// Objeto literal
+const persona = {
+  nombre: "Juan",
+  edad: 30,
+  esEstudiante: false,
+  saludar: function() {
+    console.log(`Hola, mi nombre es ${this.nombre} y tengo ${this.edad} años.`);
+  }
+};
+Acceso a propiedades y métodos, agregar o modificar profesiones.
+
+
 
 
 

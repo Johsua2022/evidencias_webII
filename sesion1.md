@@ -95,12 +95,14 @@ En JavaScript, se pueden realizar peticiones HTTP utilizando la interfaz XMLHttp
 // Configurar la solicitud
 ``xhr.open("GET", "https://api.example.com/data", true);``
 
-// Configurar un manejador de evento para la respuesta
-``xhr.onload = function()`` {
- `` if (xhr.status >= 200 && xhr.status < 300)`` {
-    // La solicitud fue exitosa
+// Configurar un manejador de evento para la respuesta.
+
+
+``xhr.onload = function() ``{
+  ``if (xhr.status >= 200 && xhr.status < 300)`` {
+    // La solicitud fue exitosa.
     ``console.log(xhr.responseText);``
-  } else {
+  }`` else ``{
     // La solicitud falló
     ``console.error("Error en la solicitud:", xhr.statusText);``
   }

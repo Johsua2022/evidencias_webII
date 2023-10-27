@@ -93,6 +93,36 @@ const MovieList = () => {
 export default MovieList;
 
 ```
+## App.jsx
+
+```jsx
+import './App.css'
+import MovieList from './components/MovieList'
+
+function App() {
+  return (
+    <>
+      <div>
+        <header>
+          <h1>Películas</h1>
+        </header>
+        <main>
+          <MovieList />
+        </main>
+      </div>
+    </>
+  )
+}
+export default App
+
+```
+
+
+
+
+
+
+![Muestra del sitio](https://firebasestorage.googleapis.com/v0/b/webii-836ac.appspot.com/o/sitio%20de%20peliculas.png?alt=media&token=f47a0b6d-f2ad-46f6-92c2-2a90bb646e9e&_gl=1*1o2ady*_ga*OTQ2NDQzMzQwLjE2OTYwODUyMTE.*_ga_CW55HF8NVT*MTY5ODQ0NzM1NC40LjEuMTY5ODQ0OTgzOC41Ni4wLjA.)
 
 
 

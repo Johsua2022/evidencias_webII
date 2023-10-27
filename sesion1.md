@@ -109,7 +109,7 @@ En JavaScript, se pueden realizar peticiones HTTP utilizando la interfaz XMLHttp
 };
 
 // Enviar la solicitud
-xhr.send();
+``xhr.send();``
 
 ## 14.	¿Qué son los marcos de trabajo de front-end y cuáles son algunos de los más populares?
 

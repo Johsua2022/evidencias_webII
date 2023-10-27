@@ -13,7 +13,8 @@ y a continuacion se ponen los componentes necesarios para que el sitio funcione.
 
 ## MovieCard.jsx
 
-```jsx(
+```jsx
+(
 import React from 'react'
 import { Card } from "react-bootstrap";
 
@@ -27,7 +28,8 @@ export default function MovieCard({ title, description, imageUrl }) {
             </Card.Body>
         </Card>
     )
-})
+}
+)
 ```
 
 

@@ -5,6 +5,8 @@
 
 
 <!-- Su documentación aquí -->
+### Taller sesion 1
+
 ## 1.	¿Cuáles son los lenguajes de programación más comunes utilizados para el desarrollo web?
 R/ los lenguajes de programación mas comunes para el desarrollo web son:
 Html que es la base de toda la estructura de una pagina web, el CSS aunque no es un lenguaje como tal es el que se usa para dar estilo en las paginas web dando el formato al html. Y javascript es un lenguaje muy importante para el desarrollo web, también hay otros lenguajes como php ,java y c#.

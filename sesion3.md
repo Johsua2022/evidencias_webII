@@ -73,6 +73,25 @@ const movies = [
   // ... Agrega más películas aquí
 ];
 
+const MovieList = () => {
+  return (
+    <Container>
+      <Row>
+        {movies.map((movie, index) => (
+          <Col key={index} xs={12} md={4}>
+            <MovieCard
+              title={movie.title}
+              description={movie.description}
+              imageUrl={movie.imageUrl}
+            />
+          </Col>
+        ))}
+      </Row>
+    </Container>
+  );
+};
+export default MovieList;
+
 ```
 
 

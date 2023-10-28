@@ -86,6 +86,10 @@ export default App
 
 ```
 
+## Muestra del sitio
+
+![Muestra del sitio](https://firebasestorage.googleapis.com/v0/b/webii-836ac.appspot.com/o/muestra%20lista.png?alt=media&token=4faf2dc1-1090-43ca-b8cb-9f23dc9085c0&_gl=1*12mqz4x*_ga*OTQ2NDQzMzQwLjE2OTYwODUyMTE.*_ga_CW55HF8NVT*MTY5ODQ1MjA2My41LjEuMTY5ODQ1MjA4OC4zNS4wLjA.)
+
 
 
 
